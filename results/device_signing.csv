@@ -1,0 +1,19 @@
+scheme,security_model,curve_or_group,metric,repeats,mean_ms,stddev_ms
+PPT-CLAMA,80,secp160r1,ECC request generation,20,5.756533,0.145381
+BMAE,80,secp160r1,ECC encrypt-and-sign,20,6.066106,0.160472
+Cui-Edge-Batch,80,secp160r1,ECC encrypt-and-sign,20,3.804241,0.12256
+BAT-CLAMA,80,secp160r1,ECC auth-request generation,20,2.031135,0.057032
+ECroA,80,type-a-pairing,JPBC signing,20,5.988381,0.320253
+Shen-V2G,80,type-a-pairing,JPBC signing,20,38.139671,1.12826
+PPT-CLAMA,112,secp224r1,ECC request generation,20,11.798177,0.196494
+BMAE,112,secp224r1,ECC encrypt-and-sign,20,11.685929,0.16643
+Cui-Edge-Batch,112,secp224r1,ECC encrypt-and-sign,20,8.104356,0.201041
+BAT-CLAMA,112,secp224r1,ECC auth-request generation,20,3.906923,0.09507
+ECroA,112,type-a-pairing,JPBC signing,20,20.633135,0.366104
+Shen-V2G,112,type-a-pairing,JPBC signing,20,205.658048,1.759669
+PPT-CLAMA,128,secp256r1,ECC request generation,20,16.233487,0.34379
+BMAE,128,secp256r1,ECC encrypt-and-sign,20,16.287283,0.238736
+Cui-Edge-Batch,128,secp256r1,ECC encrypt-and-sign,20,11.218967,0.228716
+BAT-CLAMA,128,secp256r1,ECC auth-request generation,20,5.494548,0.13425
+ECroA,128,type-a-pairing,JPBC signing,20,46.658933,0.681708
+Shen-V2G,128,type-a-pairing,JPBC signing,20,568.879152,4.770347

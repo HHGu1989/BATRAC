@@ -1,0 +1,91 @@
+scheme,security_model,devices,repeats,workload_note,mean_ms,stddev_ms
+PPT-CLAMA,80,8,20,4 pairwise sessions over 8 devices,79.233279,0.744535
+PPT-CLAMA,80,16,20,8 pairwise sessions over 16 devices,153.836781,1.360163
+PPT-CLAMA,80,32,20,16 pairwise sessions over 32 devices,304.327667,1.357452
+PPT-CLAMA,80,64,20,32 pairwise sessions over 64 devices,633.832694,31.11589
+PPT-CLAMA,80,128,20,64 pairwise sessions over 128 devices,1263.823796,15.027958
+BMAE,80,8,20,8 authenticated messages (one per device),127.986765,4.292066
+BMAE,80,16,20,16 authenticated messages (one per device),256.420887,2.428342
+BMAE,80,32,20,32 authenticated messages (one per device),514.244546,6.009748
+BMAE,80,64,20,64 authenticated messages (one per device),1038.852781,21.781979
+BMAE,80,128,20,128 authenticated messages (one per device),2080.083264,37.155702
+Cui-Edge-Batch,80,8,20,8 authenticated messages (one per device),95.83255,0.728284
+Cui-Edge-Batch,80,16,20,16 authenticated messages (one per device),189.47514,0.892252
+Cui-Edge-Batch,80,32,20,32 authenticated messages (one per device),372.34291,1.379842
+Cui-Edge-Batch,80,64,20,64 authenticated messages (one per device),771.046663,11.786676
+Cui-Edge-Batch,80,128,20,128 authenticated messages (one per device),1550.902436,20.511759
+BAT-CLAMA,80,8,20,8 authenticated requests (one per device) with explicit key confirmation,99.20629,0.499957
+BAT-CLAMA,80,16,20,16 authenticated requests (one per device) with explicit key confirmation,200.982877,6.882416
+BAT-CLAMA,80,32,20,32 authenticated requests (one per device) with explicit key confirmation,397.871196,2.536366
+BAT-CLAMA,80,64,20,64 authenticated requests (one per device) with explicit key confirmation,807.350948,4.428017
+BAT-CLAMA,80,128,20,128 authenticated requests (one per device) with explicit key confirmation,1616.121888,21.963428
+ECroA,80,8,20,one authentication packet per device in each round,192.787319,4.405749
+ECroA,80,16,20,one authentication packet per device in each round,334.569029,4.489743
+ECroA,80,32,20,one authentication packet per device in each round,597.015696,9.603634
+ECroA,80,64,20,one authentication packet per device in each round,1119.423296,7.80411
+ECroA,80,128,20,one authentication packet per device in each round,2208.680173,17.213883
+Shen-V2G,80,8,20,one authentication packet per device in each round,328.765331,8.848143
+Shen-V2G,80,16,20,one authentication packet per device in each round,638.637309,26.437078
+Shen-V2G,80,32,20,one authentication packet per device in each round,1227.287617,14.200047
+Shen-V2G,80,64,20,one authentication packet per device in each round,2361.753663,142.958044
+Shen-V2G,80,128,20,one authentication packet per device in each round,4840.9044,325.794509
+PPT-CLAMA,112,8,20,4 pairwise sessions over 8 devices,167.693767,0.949007
+PPT-CLAMA,112,16,20,8 pairwise sessions over 16 devices,364.569925,2.29692
+PPT-CLAMA,112,32,20,16 pairwise sessions over 32 devices,662.719325,3.104613
+PPT-CLAMA,112,64,20,32 pairwise sessions over 64 devices,1362.009571,18.545085
+PPT-CLAMA,112,128,20,64 pairwise sessions over 128 devices,2769.119083,18.041171
+BMAE,112,8,20,8 authenticated messages (one per device),272.868644,1.624574
+BMAE,112,16,20,16 authenticated messages (one per device),548.13481,4.676545
+BMAE,112,32,20,32 authenticated messages (one per device),1081.531525,11.950399
+BMAE,112,64,20,64 authenticated messages (one per device),2369.010577,34.261961
+BMAE,112,128,20,128 authenticated messages (one per device),4527.0313,34.560808
+Cui-Edge-Batch,112,8,20,8 authenticated messages (one per device),210.383929,4.777065
+Cui-Edge-Batch,112,16,20,16 authenticated messages (one per device),421.201485,7.619425
+Cui-Edge-Batch,112,32,20,32 authenticated messages (one per device),866.271904,24.729575
+Cui-Edge-Batch,112,64,20,64 authenticated messages (one per device),1691.868735,32.515475
+Cui-Edge-Batch,112,128,20,128 authenticated messages (one per device),3424.830744,89.097467
+BAT-CLAMA,112,8,20,8 authenticated requests (one per device) with explicit key confirmation,215.936587,1.38151
+BAT-CLAMA,112,16,20,16 authenticated requests (one per device) with explicit key confirmation,416.153062,1.299855
+BAT-CLAMA,112,32,20,32 authenticated requests (one per device) with explicit key confirmation,838.925521,10.633008
+BAT-CLAMA,112,64,20,64 authenticated requests (one per device) with explicit key confirmation,1712.15019,17.857764
+BAT-CLAMA,112,128,20,128 authenticated requests (one per device) with explicit key confirmation,3591.323579,68.995717
+ECroA,112,8,20,one authentication packet per device in each round,1031.561577,15.873412
+ECroA,112,16,20,one authentication packet per device in each round,1793.355188,18.953899
+ECroA,112,32,20,one authentication packet per device in each round,3290.24224,68.583511
+ECroA,112,64,20,one authentication packet per device in each round,6387.993398,42.045359
+ECroA,112,128,20,one authentication packet per device in each round,12309.22997,89.658716
+Shen-V2G,112,8,20,one authentication packet per device in each round,1904.52005,45.875117
+Shen-V2G,112,16,20,one authentication packet per device in each round,3650.674244,52.402369
+Shen-V2G,112,32,20,one authentication packet per device in each round,7164.533319,83.288642
+Shen-V2G,112,64,20,one authentication packet per device in each round,13916.27312,229.22627
+Shen-V2G,112,128,20,one authentication packet per device in each round,27510.50471,342.315966
+PPT-CLAMA,128,8,20,4 pairwise sessions over 8 devices,222.762335,1.165951
+PPT-CLAMA,128,16,20,8 pairwise sessions over 16 devices,479.404565,6.876827
+PPT-CLAMA,128,32,20,16 pairwise sessions over 32 devices,907.68196,6.765255
+PPT-CLAMA,128,64,20,32 pairwise sessions over 64 devices,1890.112244,45.488471
+PPT-CLAMA,128,128,20,64 pairwise sessions over 128 devices,3793.65811,23.774052
+BMAE,128,8,20,8 authenticated messages (one per device),366.241808,3.79069
+BMAE,128,16,20,16 authenticated messages (one per device),740.61034,14.954172
+BMAE,128,32,20,32 authenticated messages (one per device),1467.26095,11.751426
+BMAE,128,64,20,64 authenticated messages (one per device),3013.166161,34.236298
+BMAE,128,128,20,128 authenticated messages (one per device),6154.087012,48.74897
+Cui-Edge-Batch,128,8,20,8 authenticated messages (one per device),283.440627,2.33609
+Cui-Edge-Batch,128,16,20,16 authenticated messages (one per device),577.891931,4.382134
+Cui-Edge-Batch,128,32,20,32 authenticated messages (one per device),1152.827146,16.363569
+Cui-Edge-Batch,128,64,20,64 authenticated messages (one per device),2252.301208,40.966734
+Cui-Edge-Batch,128,128,20,128 authenticated messages (one per device),4613.7137,84.995906
+BAT-CLAMA,128,8,20,8 authenticated requests (one per device) with explicit key confirmation,283.515863,2.08356
+BAT-CLAMA,128,16,20,16 authenticated requests (one per device) with explicit key confirmation,578.335552,13.934163
+BAT-CLAMA,128,32,20,32 authenticated requests (one per device) with explicit key confirmation,1132.10035,6.174542
+BAT-CLAMA,128,64,20,64 authenticated requests (one per device) with explicit key confirmation,2372.845869,20.003696
+BAT-CLAMA,128,128,20,128 authenticated requests (one per device) with explicit key confirmation,4690.341181,110.185979
+ECroA,128,8,20,one authentication packet per device in each round,2841.380402,30.17964
+ECroA,128,16,20,one authentication packet per device in each round,5098.491652,253.88279
+ECroA,128,32,20,one authentication packet per device in each round,9352.26045,228.548507
+ECroA,128,64,20,one authentication packet per device in each round,18155.99445,239.913441
+ECroA,128,128,20,one authentication packet per device in each round,36656.66208,782.647139
+Shen-V2G,128,8,20,one authentication packet per device in each round,5332.59916,43.106169
+Shen-V2G,128,16,20,one authentication packet per device in each round,10391.22959,97.230555
+Shen-V2G,128,32,20,one authentication packet per device in each round,20140.5518,496.238971
+Shen-V2G,128,64,20,one authentication packet per device in each round,39509.90822,920.096117
+Shen-V2G,128,128,20,one authentication packet per device in each round,79830.26566,739.42776
