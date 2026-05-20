@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>404 - Sonatype Nexus Repository</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+
+  <link rel="icon" type="image/png" href="../../../../../../../../../static/rapture/resources/safari-favicon-32x32.png?3.83.0-08" sizes="32x32">
+  <link rel="mask-icon" href="../../../../../../../../../static/rapture/resources/favicon-white.svg?3.83.0-08" color="#00bb6c">
+  <link rel="icon" type="image/png" href="../../../../../../../../../static/rapture/resources/favicon.svg?3.83.0-08" sizes="16x16">
+
+  <link rel="stylesheet" type="text/css" href="../../../../../../../../../static/css/nexus-content.css?3.83.0-08"/>
+  <link rel="stylesheet" type="text/css" href="../../../../../../../../../static/css/error-styles.css?3.83.0-08"/>
+</head>
+<body>
+<div class="nexus-header">
+  <a href="../../../../../../../../..">
+    <div class="product-logo">
+      <img src="../../../../../../../../../static/rapture/resources/sonatype-repository-logo-nav.png?3.83.0-08" alt="Product logo"/>
+    </div>
+  </a>
+</div>
+
+<div class="nexus-body">
+  <div class="content-header">
+    <img src="../../../../../../../../../static/rapture/resources/404-error-image.svg?3.83.0-08" alt="404 Error illustration" aria-role="presentation"/>
+    <span class="title">Error 404</span>
+    <span class="description">Not Found</span>
+  </div>
+  <div class="content-body">
+    <div class="content-section">
+      Not Found
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
